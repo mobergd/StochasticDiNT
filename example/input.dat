@@ -1,0 +1,23 @@
+$system_info
+JobType		Stochastic
+Label		'CH4* + H (+ H2)'
+NumAXM		1 1 1
+Reactants	CH4
+NAtomsA		5
+xA		0.1
+B[cm-1]		4.3348849804121254
+XColliders	H
+NAtomsX		1
+xX		0.01
+MColliders	H2
+NAtomsM		2
+xM		0.01
+Temperature[K]	1000.0
+Steps		3000
+$end
+
+$directory_info
+NTrajs		36
+NProcessors	36
+Potentials	ch4hALL		alkT
+$end
